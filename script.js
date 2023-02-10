@@ -95,12 +95,12 @@ slider_div.classList.add("box");
 
 slider_div.innerHTML = ` 
 <input type="range" class="range range-1" value="80" min="0" max="100"/>
-<input type="range" class="range range-2" value="80" min="0"max="100"/>
+<input type="range" class="range range-2" value="55" min="0"max="100"/>
 <input type="range" class="range range-3" value="70" min="0" max="100"/>
 <input type="range" class="range range-4" value="70" min="0" max="100"/>
 <input type="range" class="range range-4" value="45" min="0" max="100"/>
-<input type="range" class="range range-4" value="55" min="0" max="100" />
-<input type="range" class="range range-4" value="89" min="0" max="100" />`;
+<input type="range" class="range range-4" value="60" min="0" max="100" />
+<input type="range" class="range range-4" value="70" min="0" max="100" />`;
 
 skill_container_box.append(language_title, slider_div);
 Technical_Skills_Full_Div.append(skill_title_h4, skill_container_box);
