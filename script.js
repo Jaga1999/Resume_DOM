@@ -150,9 +150,9 @@ work_experience_header.classList.add("work-experience_header");
 const work_experience_role_box1 = document.createElement("div");
 work_experience_role_box1.classList.add("role_box1");
 const work_experience_role_box1_h4 = document.createElement("h4");
-work_experience_role_box1_h4.innerText = "Event Manger";
+work_experience_role_box1_h4.innerText = "Software Engineer Trainee";
 const work_experience_role_box1_para = document.createElement("p");
-work_experience_role_box1_para.innerText = "C3 Presents, Washington DC";
+work_experience_role_box1_para.innerText = "Bengaluru, India";
 
 work_experience_role_box1.append(
   work_experience_role_box1_h4,
@@ -161,7 +161,7 @@ work_experience_role_box1.append(
 const work_experience_role_box2 = document.createElement("div");
 work_experience_role_box2.classList.add("role_box2");
 const work_experience_role_box2_para = document.createElement("p");
-work_experience_role_box2_para.innerText = "03/2014 - 02/2017";
+work_experience_role_box2_para.innerText = "04/2022 - 09/2022";
 work_experience_role_box2.append(work_experience_role_box2_para);
 
 // work-experience_content
@@ -171,20 +171,13 @@ work_experience_content.classList.add("work-experience_content");
 const work_experience_content_ul = document.createElement("ul");
 
 const work_experience_content_li_1 = document.createElement("li");
-work_experience_content_li_1.innerText = `
-Lead and excute all phases of event planning and production spanning 
-commitee recruitment, training, vendor relationships and on-site facilitation.`;
+work_experience_content_li_1.innerText = `Worked with SQL databases for Web Application for data store procedure and manupulate datas.`;
 
 const work_experience_content_li_2 = document.createElement("li");
-work_experience_content_li_2.innerText = `Brought new business to the organization through 
-relentless networking and stewardship which helped the 
-company win the  bid for the State Department Summit on the Middle East and, the companies largest civic 
-event to date, the United State of Women.`;
+work_experience_content_li_2.innerText = `Assisted and worked on Export and print bills Module on Desktop Applications using C# for ERP software Used by many companies. `;
 
 const work_experience_content_li_3 = document.createElement("li");
-work_experience_content_li_3.innerText = `Exercise fiscal control over budget creation, 
-tracking and resporting. Collaborate with employeees
- at all organizational levels to advance cohesive opaertions.`;
+work_experience_content_li_3.innerText = `Customer Supports including Technical and Non-Technical for the customers.`;
 work_experience_content_ul.append(
   work_experience_content_li_1,
   work_experience_content_li_2,
@@ -218,13 +211,13 @@ center_Divider.classList.add("divider-h");
 // <!-- ==================== Right side of resume Content starts Here =============================-->
 const box2 = document.createElement("div");
 box2.classList.add("box2");
-//   work experience
+//   Projects
 const work_Experience_Div2 = document.createElement("div");
 work_Experience_Div2.classList.add("content_section");
 
 const work_Experience_Div2_h3 = document.createElement("h3");
 work_Experience_Div2_h3.innerHTML = `<span class="circle-icon-div">
-<i class="fa-solid fa-briefcase circle-icon"></i> </span> Work experience`;
+<i class="fa-solid fa-globe circle-icon"></i> </span> Projects`;
 
 const work_experience_header2 = document.createElement("div");
 work_experience_header2.classList.add("work-experience_header");
@@ -233,10 +226,10 @@ const work_Experience_Div2_role_box1 = document.createElement("div");
 work_Experience_Div2_role_box1.classList.add("role_box1");
 
 const work_Experience_Div2_role_box1_h4 = document.createElement("h4");
-work_Experience_Div2_role_box1_h4.innerText = "Community Relations Manager";
+work_Experience_Div2_role_box1_h4.innerText = "To-Do List";
 
 const work_Experience_Div2_role_box1_para = document.createElement("p");
-work_Experience_Div2_role_box1_para.innerText = "Gay & Lesbian,Los Angeles";
+work_Experience_Div2_role_box1_para.innerText = "ReactJs";
 work_Experience_Div2_role_box1.append(
   work_Experience_Div2_role_box1_h4,
   work_Experience_Div2_role_box1_para
@@ -246,7 +239,7 @@ const work_Experience_Div2_role_box2 = document.createElement("div");
 work_Experience_Div2_role_box2.classList.add("role_box2");
 
 const work_Experience_Div2_role_box2_para = document.createElement("p");
-work_Experience_Div2_role_box2_para.innerText = "06/2011 - 01/2014";
+work_Experience_Div2_role_box2_para.innerText = "02/2022 - 02/2022";
 
 work_Experience_Div2_role_box2.append(work_Experience_Div2_role_box2_para);
 work_experience_header2.append(
@@ -302,10 +295,10 @@ const education_header_role_box1 = document.createElement("div");
 education_header_role_box1.classList.add("role_box1");
 
 const education_header_role_box1_h4 = document.createElement("h4");
-education_header_role_box1_h4.innerText = "Engineering Immersion Program";
+education_header_role_box1_h4.innerText = "MSc Computer Science";
 
 const education_header_role_box1_para = document.createElement("p");
-education_header_role_box1_para.innerText = "Thinkful, Chicago, IL";
+education_header_role_box1_para.innerText = "Krishnagiri, Tamilnadu, India";
 education_header_role_box1.append(
   education_header_role_box1_h4,
   education_header_role_box1_para
@@ -315,7 +308,7 @@ const education_header_role_box2 = document.createElement("div");
 education_header_role_box2.classList.add("role_box2");
 
 const education_header_role_box2_para = document.createElement("p");
-education_header_role_box2_para.innerText = "11/2018 - 06/2018";
+education_header_role_box2_para.innerText = "06/2020 - 05/2022";
 education_header_role_box2.append(education_header_role_box2_para);
 education_header.append(education_header_role_box1, education_header_role_box2);
 
